@@ -29,6 +29,7 @@
   <string name="Target_pace_HHMMSS">Kitűzött tempó</string>
   <!--strings with argument to provide-->
   <!--first argument is a date, second a time, for instance: "Yesterday at 13:32"-->
+  <string name="formatting_date_at_time">%1$s %2$s-kor</string>
   <!--weird stuff: should it be placeholders or even removed?-->
   <string name="ok_rats">ok, rats</string>
   <!--other-->
@@ -46,6 +47,9 @@
   <string name="speed">sebesség</string>
   <string name="pace">tempó</string>
   <string name="heart_rate_zone">pulzus zóna</string>
+  <string name="cadence">kadencia</string>
+  <string name="temperature">hőmérséklet</string>
+  <string name="pressure">nyomás</string>
   <string name="Zone">Zóna</string>
   <string name="Device">Eszköz</string>
   <string name="Start_hour">Kezdés ideje</string>
@@ -178,6 +182,7 @@
   <string name="Unit_preference">Preferált mértékegység</string>
   <string name="Auto_start_GPS">GPS automatikus indítása</string>
   <string name="Advanced_options">Haladó beállítások</string>
+  <string name="Mapbox_default_style">Mapbox stílus</string>
   <string name="RunnerUp_live_address">RunnerUp live cím</string>
   <string name="Autopause_after_s">Auto szünet ennyi másodperc után</string>
   <string name="Autopause_min_pace_minkm">Automata szünet tempó (perc/km)</string>
@@ -192,6 +197,7 @@
   <string name="Smooth_pace_filters">Tempó simítás filter (s)</string>
   <string name="Poll_interval_ms">Lekérdezési időköz (ms)</string>
   <string name="Poll_distance_m">Lekérdezési távolság (m)</string>
+  <string name="Adjust_altitude">GPS magasságkorrekció (EGM96)</string>
   <string name="Export">Exportálás</string>
   <string name="Import">Importálás</string>
   <string name="Experimental_HRM_devices">Kísérleti pulzusmérő eszközök</string>
@@ -285,5 +291,24 @@
   <string name="Uploading_to_1s">Feltöltés ide: %1$s</string>
   <string name="Loading_activities">Tevékenységek betöltése</string>
   <string name="Fetching_activities_from_1s">Tevékenységek letöltése innen: %1$s</string>
+  <string name="No_feed_to_show">Nincs mit megjeleníteni</string>
+  <string name="Unused_currently">Nincs használatban jelenleg.</string>
   <string name="Unknown">Ismeretlen</string>
+  <string name="Recording">Rögzítés</string>
+  <string name="Sensors">Érzékelők</string>
+  <string name="Maintenance">Karbantartás</string>
+  <string name="cue_hrm_connection_restored">Kapcsolat a pulzusmérővel helyreállt.</string>
+  <string name="cue_hrm_connection_lost">Kapcsolat a pulzusmérővel megszakadt.</string>
+  <string name="HRM_connection_audio_cue">Pulzusmérő kapcsolat indította beszéd</string>
+  <string name="latest_feed_click_to_refresh">Legfrissebb bejegyzések (koppints a frissítéshez)</string>
+  <string name="log_extended_gps_summary">Exportálás csak GPX-ben</string>
+  <string name="log_extended_gps_title">GPS pontossági adatok kiterjesztett naplózása</string>
+  <string name="use_step_sensor_title">Lépés érzékelő</string>
+  <string name="use_step_sensor_summary">Kadencia mérésére</string>
+  <string name="use_temperature_sensor">Hőmérséklet érzékelő</string>
+  <string name="use_pressure_sensor_title">Nyomás érzékelő</string>
+  <string name="use_pressure_sensor_summary">Barométer használata magasság számolásához</string>
+  <string name="adjust_barometer_altitude_from_gps">Barométer magasság állítása GPS magassághoz</string>
+  <string name="adjust_barometer_elevation_from_gps_summary">Használja a kezdeti GPS magasságot a barometrikus magasság átlagolásához</string>
+  <string name="google_play_not_installed">A Google Play-szolgáltatások nincsen telepítve</string>
 </resources>
